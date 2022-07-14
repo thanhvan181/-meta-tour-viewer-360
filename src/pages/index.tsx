@@ -1,32 +1,18 @@
-import Hello from '@/components/Hello';
-import {TodoDto} from '@/services/dtos/TodoDto';
-import todoService from '@/services/todoService';
-import type {GetStaticProps, InferGetStaticPropsType} from 'next';
+import type { NextPage } from 'next'
 
-const Home = ({todos}: InferGetStaticPropsType<typeof getStaticProps>) => {
+
+const Home: NextPage = () => {
   return (
-    <>
-      <Hello title="Todo List" />
-      <ul>
-        {todos.map((todo) => (
-          <li key={todo.id}>{todo.title}</li>
-        ))}
+    <main>
+      <ul className='menu'>
+        <li><a href="" className='menu__link'>menu 1</a></li>
+        <li><a href="" className='menu__link'>menu 2</a></li>
+        <li><a href="" className='menu__link'>menu 3</a></li>
+        <li><a href="" className='menu__link'>menu 4</a></li>
       </ul>
-    </>
-  );
-};
-
-interface Props {
-  todos: TodoDto[];
+     
+    </main>
+  )
 }
 
-export const getStaticProps: GetStaticProps<Props> = async () => {
-  const todos = await todoService.getAll();
-  return {
-    props: {
-      todos,
-    },
-  };
-};
-
-export default Home;
+export default Home
