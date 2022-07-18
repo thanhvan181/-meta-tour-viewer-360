@@ -12,6 +12,14 @@ export const PlanCardWraper = styled.div`
   margin-left: auto;
   margin-right: auto;
   justify-content: center;
+  /* @media screen and (min-width: 768px) {
+    flex-basis: calc(33% - 1rem);
+    margin: 0;
+  } */
+  @media (max-width: 576px) {
+    width: 140%;
+    flex-direction: column;
+  }
 `;
 
 export const CardPlan = styled.div`
@@ -25,15 +33,6 @@ export const CardPlan = styled.div`
     #fff 0,
     #fff
   );
-
-  @media screen and (min-width: 768px) {
-    flex-basis: calc(33% - 1rem);
-    margin: 0;
-  }
-  @media screen and (max-width: 576px) {
-    flex-basis: 100%;
-    max-width: calc(100% - 2rem);
-  }
 `;
 
 export const CardTop = styled.div`

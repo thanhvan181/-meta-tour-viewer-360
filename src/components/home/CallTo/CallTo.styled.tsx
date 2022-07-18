@@ -3,6 +3,9 @@ import styled from 'styled-components';
 export const Section = styled.section`
   background-image: linear-gradient(-135deg, #f5402d, #fe5f32 80%);
   margin-bottom: 20px;
+  @media (max-width: 576px) {
+    width: 140%;
+  }
   @media (max-width: 425px) {
     width: 465px;
     text-align: center;

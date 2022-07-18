@@ -1,4 +1,5 @@
 import CallTo from './CallTo';
+import Features from './Features';
 import Footer from './Footer';
 import Header from './Header';
 import Pricing from './PricingPlans';
@@ -9,6 +10,7 @@ const HomePage = (props: Props) => {
   return (
     <>
       <Header />
+      <Features />
       <Pricing />
       <CallTo />
       <Footer />

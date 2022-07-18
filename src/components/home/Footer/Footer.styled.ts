@@ -8,6 +8,7 @@ export const Container = styled.div`
     display: grid;
     justify-content: center;
   }
+
   @media (max-width: 425px) {
     display: grid;
   }

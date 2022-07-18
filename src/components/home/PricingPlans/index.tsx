@@ -6,7 +6,7 @@ const Pricing = (props: Props) => {
   return (
     <S.Container>
       <S.PlanCardWraper>
-        <S.CardPlan style={{zIndex: 0}}>
+        <S.CardPlan>
           <div>
             <div></div>
             <S.CardTop style={{backgroundColor: '#a963ff'}}>
