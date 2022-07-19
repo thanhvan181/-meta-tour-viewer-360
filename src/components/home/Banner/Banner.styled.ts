@@ -46,16 +46,15 @@ export const Desc = styled.p`
 export const CardBox = styled.div`
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  width: 100%;
+  max-width: 100%;
   margin: auto;
   grid-gap: 50px;
 
-  @media only screen and (min-width: 1200px) {
-    width: 1170px;
+  @media only screen and (max-width: 1200px) {
+    max-width: 1170px;
   }
-
   @media screen and (min-width: 992px) {
-    max-width: 970px;
+    max-width: 1170px;
   }
   @media screen and (max-width: 768px) {
     display: flex;
