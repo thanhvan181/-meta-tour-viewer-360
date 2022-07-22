@@ -13,3 +13,12 @@ a {
 * {
   box-sizing: border-box;
 }
+:root {
+  --primary: rgb(0, 82, 204);
+  --primary-rgb: 0, 82, 204;
+}
+
+.demo {
+  background-color: rgb(var(--primary-rgb) / 50%); /* cach viet 1 */
+  background-color: rgba(var(--primary-rgb), 0.5); /* cach viet 2 */
+}
