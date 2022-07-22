@@ -1,18 +1,9 @@
 // import SigninPage from "@/components/SignUP/SignupPage"
 
-
-
-interface Props {
-    
-}
+interface Props {}
 
 const signin = (props: Props) => {
-    return (
-        <>
-            {/* <SigninPage/> */}
-            
-        </>
-    )
-}
+  return <>{/* <SigninPage/> */}</>;
+};
 
-export default signin
+export default signin;

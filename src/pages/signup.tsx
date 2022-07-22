@@ -1,14 +1,14 @@
-import SignupPage from '@/components/Signup/SignupPage'
+import SignupPage from '@/components/Signup/SignupPage';
 // import React from 'react'
 
-type Props = {}
+type Props = {};
 
 const signup = (props: Props) => {
   return (
     <>
-          <SignupPage/>
+      <SignupPage />
     </>
-  )
-}
+  );
+};
 
-export default signup
+export default signup;

@@ -1,10 +1,14 @@
 import Layout from '@/components/Layout';
-import { AppPropsWithLayout } from '@/models/layout';
-import '@/styles/globals.css'
+import {AppPropsWithLayout} from '@/models/layout';
+import '@/styles/globals.css';
 
-function MyApp({ Component, pageProps }: AppPropsWithLayout) {
+function MyApp({Component, pageProps}: AppPropsWithLayout) {
   const LayoutWrapper = Component.Layout ?? Layout;
-  return (<LayoutWrapper><Component {...pageProps} /></LayoutWrapper>)
+  return (
+    <LayoutWrapper>
+      <Component {...pageProps} />
+    </LayoutWrapper>
+  );
 }
 
-export default MyApp
+export default MyApp;

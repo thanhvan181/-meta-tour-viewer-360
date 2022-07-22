@@ -46,7 +46,7 @@ export const SignUpField = styled.div`
 export const SignUpInput = styled.input`
   width: 100%;
   height: 100%;
-  font-size: 1.2rem;
+  font-size: 1rem;
   padding: 10px 2px 0;
   border-bottom: 2px solid gray;
   border: none;
@@ -54,12 +54,11 @@ export const SignUpInput = styled.input`
   :focus {
     top: 0;
 
-    font-size: 1rem;
     background-color: white;
   }
   :valid {
     top: 0;
-    font-size: 2rem;
+
     background-color: white;
   }
 `;
@@ -77,7 +76,7 @@ export const SignUpLabel = styled.label`
 `;
 
 export const WrapperButton = styled.button`
-  background: #fc633e;
+  background: var(--primary);
   color: white;
   padding: 12px 0;
   font-size: 1.2rem;
@@ -86,26 +85,24 @@ export const WrapperButton = styled.button`
   outline: none;
   cursor: pointer;
   :hover {
-    background: #4b111b;
+    background: rgba(var(--primary-rgb), 0.8);
   }
 `;
 export const Span = styled.span`
   text-decoration: underline;
   cursor: pointer;
-  color: #fc633e;
+  color: var(--primary);
 `;
 export const h1 = styled.h1`
   text-align: center;
-  color: #fc633e;
+  color: var(--primary);
 `;
 
 export const h2 = styled.h2`
   text-align: center;
-  font-size: 1.2rem;
+  font-size: 1rem;
   font-weight: lighter;
-
+  text-decoration: none;
   margin-bottom: 40px;
-  text-decoration: underline;
   cursor: pointer;
-  color: #fc633e;
 `;
