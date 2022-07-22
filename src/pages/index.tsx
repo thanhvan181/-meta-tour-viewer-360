@@ -1,4 +1,3 @@
-import HomePage from '@/components/home';
 import type {NextPage} from 'next';
 
 const Home: NextPage = () => {
@@ -26,7 +25,6 @@ const Home: NextPage = () => {
           </a>
         </li>
       </ul>
-      <HomePage />
     </main>
   );
 };

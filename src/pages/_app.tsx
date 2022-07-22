@@ -1,14 +1,17 @@
+import Layout from '@/components/Layout';
+import store from '@/store/configureStore';
+import {AppPropsWithLayout} from '@/models/layout';
+import {Provider as ReduxProvider} from 'react-redux';
 import '@/styles/globals.css';
-
-import {AppPropsWithLayout} from '../models/layout';
-import Layout from '../components/Layout';
 
 function MyApp({Component, pageProps}: AppPropsWithLayout) {
   const LayoutWrapper = Component.Layout ?? Layout;
   return (
-    <LayoutWrapper>
-      <Component {...pageProps} />
-    </LayoutWrapper>
+    <ReduxProvider store={store}>
+      <LayoutWrapper>
+        <Component {...pageProps} />
+      </LayoutWrapper>
+    </ReduxProvider>
   );
 }
 

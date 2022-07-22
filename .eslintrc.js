@@ -9,6 +9,7 @@ module.exports = {
     'prettier',
     'plugin:react/jsx-runtime',
   ],
+
   parser: '@typescript-eslint/parser',
   parserOptions: {
     ecmaFeatures: {

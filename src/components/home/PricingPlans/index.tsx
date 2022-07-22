@@ -20,19 +20,22 @@ const Pricing = (props: Props) => {
                   display: 'flex',
                   justifyContent: 'center',
                   padding: '20px 0px',
-                }}>
+                }}
+              >
                 <svg
                   data-v-21ab6224=""
                   width="10"
                   height="10"
                   viewBox="0 0 10 10"
                   fill="none"
-                  xmlns="http://www.w3.org/2000/svg">
+                  xmlns="http://www.w3.org/2000/svg"
+                >
                   <path
                     data-v-21ab6224=""
                     d="M0 5L3.93934 3.93934L5 0L6.06066 3.93934L10 5L6.06066 6.06066L5 10L3.93934 6.06066L0 5Z"
                     fill="black"
-                    fillOpacity="0.7"></path>
+                    fillOpacity="0.7"
+                  ></path>
                 </svg>
                 <svg
                   data-v-21ab6224=""
@@ -40,12 +43,14 @@ const Pricing = (props: Props) => {
                   height="10"
                   viewBox="0 0 10 10"
                   fill="none"
-                  xmlns="http://www.w3.org/2000/svg">
+                  xmlns="http://www.w3.org/2000/svg"
+                >
                   <path
                     data-v-21ab6224=""
                     d="M0 5L3.93934 3.93934L5 0L6.06066 3.93934L10 5L6.06066 6.06066L5 10L3.93934 6.06066L0 5Z"
                     fill="black"
-                    fillOpacity="0.7"></path>
+                    fillOpacity="0.7"
+                  ></path>
                 </svg>
                 <svg
                   data-v-21ab6224=""
@@ -53,12 +58,14 @@ const Pricing = (props: Props) => {
                   height="10"
                   viewBox="0 0 10 10"
                   fill="none"
-                  xmlns="http://www.w3.org/2000/svg">
+                  xmlns="http://www.w3.org/2000/svg"
+                >
                   <path
                     data-v-21ab6224=""
                     d="M0 5L3.93934 3.93934L5 0L6.06066 3.93934L10 5L6.06066 6.06066L5 10L3.93934 6.06066L0 5Z"
                     fill="black"
-                    fillOpacity="0.7"></path>
+                    fillOpacity="0.7"
+                  ></path>
                 </svg>
               </div>
               <S.PlanInfo>Tạo showroom ảo 24/7</S.PlanInfo>
@@ -81,7 +88,8 @@ const Pricing = (props: Props) => {
           </S.PlanList>
         </S.CardPlan>
         <S.CardPlan
-          style={{transform: 'scale(1.08)', marginBottom: 30, zIndex: 2}}>
+          style={{transform: 'scale(1.08)', marginBottom: 30, zIndex: 2}}
+        >
           <div>
             <div></div>
             <S.CardTop style={{backgroundColor: '#ff5745'}}>
@@ -95,19 +103,22 @@ const Pricing = (props: Props) => {
                   display: 'flex',
                   justifyContent: 'center',
                   padding: '20px 0px',
-                }}>
+                }}
+              >
                 <svg
                   data-v-21ab6224=""
                   width="10"
                   height="10"
                   viewBox="0 0 10 10"
                   fill="none"
-                  xmlns="http://www.w3.org/2000/svg">
+                  xmlns="http://www.w3.org/2000/svg"
+                >
                   <path
                     data-v-21ab6224=""
                     d="M0 5L3.93934 3.93934L5 0L6.06066 3.93934L10 5L6.06066 6.06066L5 10L3.93934 6.06066L0 5Z"
                     fill="black"
-                    fillOpacity="0.7"></path>
+                    fillOpacity="0.7"
+                  ></path>
                 </svg>
                 <svg
                   data-v-21ab6224=""
@@ -115,12 +126,14 @@ const Pricing = (props: Props) => {
                   height="10"
                   viewBox="0 0 10 10"
                   fill="none"
-                  xmlns="http://www.w3.org/2000/svg">
+                  xmlns="http://www.w3.org/2000/svg"
+                >
                   <path
                     data-v-21ab6224=""
                     d="M0 5L3.93934 3.93934L5 0L6.06066 3.93934L10 5L6.06066 6.06066L5 10L3.93934 6.06066L0 5Z"
                     fill="black"
-                    fillOpacity="0.7"></path>
+                    fillOpacity="0.7"
+                  ></path>
                 </svg>
                 <svg
                   data-v-21ab6224=""
@@ -128,12 +141,14 @@ const Pricing = (props: Props) => {
                   height="10"
                   viewBox="0 0 10 10"
                   fill="none"
-                  xmlns="http://www.w3.org/2000/svg">
+                  xmlns="http://www.w3.org/2000/svg"
+                >
                   <path
                     data-v-21ab6224=""
                     d="M0 5L3.93934 3.93934L5 0L6.06066 3.93934L10 5L6.06066 6.06066L5 10L3.93934 6.06066L0 5Z"
                     fill="black"
-                    fillOpacity="0.7"></path>
+                    fillOpacity="0.7"
+                  ></path>
                 </svg>
               </div>
               <S.PlanInfo>Tạo showroom ảo 24/7</S.PlanInfo>
@@ -166,19 +181,22 @@ const Pricing = (props: Props) => {
                   display: 'flex',
                   justifyContent: 'center',
                   padding: '20px 0px',
-                }}>
+                }}
+              >
                 <svg
                   data-v-21ab6224=""
                   width="10"
                   height="10"
                   viewBox="0 0 10 10"
                   fill="none"
-                  xmlns="http://www.w3.org/2000/svg">
+                  xmlns="http://www.w3.org/2000/svg"
+                >
                   <path
                     data-v-21ab6224=""
                     d="M0 5L3.93934 3.93934L5 0L6.06066 3.93934L10 5L6.06066 6.06066L5 10L3.93934 6.06066L0 5Z"
                     fill="black"
-                    fillOpacity="0.7"></path>
+                    fillOpacity="0.7"
+                  ></path>
                 </svg>
                 <svg
                   data-v-21ab6224=""
@@ -186,12 +204,14 @@ const Pricing = (props: Props) => {
                   height="10"
                   viewBox="0 0 10 10"
                   fill="none"
-                  xmlns="http://www.w3.org/2000/svg">
+                  xmlns="http://www.w3.org/2000/svg"
+                >
                   <path
                     data-v-21ab6224=""
                     d="M0 5L3.93934 3.93934L5 0L6.06066 3.93934L10 5L6.06066 6.06066L5 10L3.93934 6.06066L0 5Z"
                     fill="black"
-                    fillOpacity="0.7"></path>
+                    fillOpacity="0.7"
+                  ></path>
                 </svg>
                 <svg
                   data-v-21ab6224=""
@@ -199,12 +219,14 @@ const Pricing = (props: Props) => {
                   height="10"
                   viewBox="0 0 10 10"
                   fill="none"
-                  xmlns="http://www.w3.org/2000/svg">
+                  xmlns="http://www.w3.org/2000/svg"
+                >
                   <path
                     data-v-21ab6224=""
                     d="M0 5L3.93934 3.93934L5 0L6.06066 3.93934L10 5L6.06066 6.06066L5 10L3.93934 6.06066L0 5Z"
                     fill="black"
-                    fillOpacity="0.7"></path>
+                    fillOpacity="0.7"
+                  ></path>
                 </svg>
               </div>
               <S.PlanInfo>Tạo showroom ảo 24/7</S.PlanInfo>

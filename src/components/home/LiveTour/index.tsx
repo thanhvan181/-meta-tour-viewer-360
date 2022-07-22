@@ -21,7 +21,8 @@ const LiveTour = (props: Props) => {
         frameBorder="0"
         sandbox="allow-popups allow-downloads allow-forms allow-scripts allow-same-origin"
         allow="frame-ancestors; camera; microphone;"
-        allowFullScreen></iframe>
+        allowFullScreen
+      ></iframe>
     </S.Container>
   );
 };

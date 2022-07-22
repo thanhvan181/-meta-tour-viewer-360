@@ -1,13 +1,11 @@
 // import React from 'react'
-import EmptyLayout from '../components/Layout/empty'
+import EmptyLayout from '../components/Layout/empty';
 
-type Props = {}
+type Props = {};
 
 const NotFound = (props: Props) => {
-    return (
-        <div>NotFound</div>
-    )
-}
+  return <div>NotFound</div>;
+};
 
-NotFound.Layout = EmptyLayout
-export default NotFound 
+NotFound.Layout = EmptyLayout;
+export default NotFound;
