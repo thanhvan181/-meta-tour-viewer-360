@@ -1,0 +1,51 @@
+.banner {
+  min-height: 750px;
+  background-image: url('https://meta.tourzy.vn/public/frontend/showroom/_nuxt/img/c2ec93c.jpg');
+  background-repeat: no-repeat;
+  position: relative;
+  background-position: center;
+}
+.content {
+  position: absolute;
+  content: '';
+  top: 30%;
+  width: 100%;
+  text-align: center;
+}
+.content h1 {
+  /* width: 70%; */
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 5.4rem;
+  letter-spacing: 0.05rem;
+  color: #fff;
+}
+.content span {
+  /* width: 70%; */
+  /* text-align: center; */
+  color: #fff;
+  font-size: 3rem;
+  letter-spacing: 1px;
+  font-weight: 600;
+  line-height: 1.5;
+}
+.btn_contact {
+  position: absolute;
+  content: '';
+  bottom: 10%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.btn_contact a {
+  display: block;
+  background-color: #fc633e;
+  padding: 1rem 3rem;
+  color: #fff;
+  border-radius: 50px;
+  box-shadow: 0 -3px 45px -4px rgb(0 0 0 / 16%);
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 1.1rem;
+}
